@@ -1,0 +1,104 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background:black;
+    color:white;
+    width:95vw;
+    margin-left:2.5vw;
+    font-weight:800;
+}
+
+h1 {
+    background: #2f549b;
+    text-align:center;
+    padding:10px;
+    color:#ffca04;
+    font-size:3.3em;
+
+}
+
+#starters_image_div img {
+    background:black;
+    padding:5px;
+    border: 5px solid #2f549b;
+}
+
+.each_pokemon_container, #starters_image_div {
+    text-align:center;
+}
+
+.each_pokemon_container img {
+    margin: 40px 0;
+    text-align:center;
+}
+
+.list {
+    font-size:24px;
+    font-weight: 600;
+}
+
+li {
+    list-style-type: square;
+}
+
+#bulbasaur_container, #charmander_container, #squirtle_container {
+    padding:20px;
+    border-radius:20px;
+    border: #fdeea6 4px solid;
+}
+
+#bulbasaur_container {
+    background: #8cc48e;
+}
+
+#charmander_container {
+    background: #f3b284;
+}
+
+#squirtle_container {
+    background: #8ec4cd;
+}
+
+#bulbasaur_container h3, #charmander_container h3, #squirtle_container h3 {
+    font-size:32px;
+}
+
+#bulbasaur_container p, #charmander_container p, #squirtle_container p {
+    font-size: 15px;
+}
+
+.pokemon_images {
+    width: 12.5vw;
+}
+
+footer {
+    margin-top: 20vh;
+    margin-bottom: 5vh;
+}
+
+
+* {
+    scrollbar-width: auto;
+    scrollbar-color: #2f549b #ffffff;
+  }
+
+  /* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #2f549b #ffffff;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: rgb(220,220,220);
+    border-radius:100px;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #2f549b;
+    border-radius: 100px;
+  }
